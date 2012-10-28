@@ -7,12 +7,37 @@
 //
 
 #include <iostream>
+#include <cstdlib>
+#include "Schooner.h"
+#include "Dinghy.h"
+#include "Clipper.h"
+using namespace std;
 
-int main(int argc, const char * argv[])
+int main()
 {
+    Schooner s(110, 68);
+    Dinghy d(200,10);
+    Clipper c(164, 277);
+    
+    s.Model();
+    cout << "Length: " << s.getLength() << "ft\n";
+    cout << "Height: " << s.getMast() << "ft\n";
+    s.Beam();
+    
+    cout <<"\n";
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    d.Model();
+    cout << "Length: " << d.getLength() << "ft\n";
+    cout << "Power: " << d.getPower() << "hp\n";
+    d.Motor();
+    
+    cout <<"\n";
+    
+    c.Model();
+    cout << "Length: " << c.getLength() << "ft\n";
+    cout << "Height: " << c.getMast() << "ft\n";
+    c.Beam();
+    
+    return EXIT_SUCCESS;
 }
 

@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3700A92B163D7B25007A9E63 /* Powerboat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3700A929163D7B25007A9E63 /* Powerboat.cpp */; };
+		3700A931163D8EE3007A9E63 /* Dinghy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3700A92F163D8EE3007A9E63 /* Dinghy.cpp */; };
+		3700A935163D9521007A9E63 /* Clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3700A933163D9521007A9E63 /* Clipper.cpp */; };
 		374A58CC163D60140044EF85 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374A58CB163D60140044EF85 /* main.cpp */; };
 		374A58CE163D60140044EF85 /* October29.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 374A58CD163D60140044EF85 /* October29.1 */; };
+		374A58D6163D66E30044EF85 /* Boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374A58D4163D66E30044EF85 /* Boat.cpp */; };
+		374A58D9163D676F0044EF85 /* Sailboat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374A58D7163D676F0044EF85 /* Sailboat.cpp */; };
+		374A58DC163D683E0044EF85 /* Schooner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374A58DA163D683E0044EF85 /* Schooner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +31,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3700A929163D7B25007A9E63 /* Powerboat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Powerboat.cpp; sourceTree = "<group>"; };
+		3700A92A163D7B25007A9E63 /* Powerboat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Powerboat.h; sourceTree = "<group>"; };
+		3700A92F163D8EE3007A9E63 /* Dinghy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dinghy.cpp; sourceTree = "<group>"; };
+		3700A930163D8EE3007A9E63 /* Dinghy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dinghy.h; sourceTree = "<group>"; };
+		3700A933163D9521007A9E63 /* Clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Clipper.cpp; sourceTree = "<group>"; };
+		3700A934163D9521007A9E63 /* Clipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clipper.h; sourceTree = "<group>"; };
 		374A58C7163D60140044EF85 /* October29 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = October29; sourceTree = BUILT_PRODUCTS_DIR; };
 		374A58CB163D60140044EF85 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		374A58CD163D60140044EF85 /* October29.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = October29.1; sourceTree = "<group>"; };
+		374A58D4163D66E30044EF85 /* Boat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boat.cpp; sourceTree = "<group>"; };
+		374A58D5163D66E30044EF85 /* Boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boat.h; sourceTree = "<group>"; };
+		374A58D7163D676F0044EF85 /* Sailboat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sailboat.cpp; sourceTree = "<group>"; };
+		374A58D8163D676F0044EF85 /* Sailboat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sailboat.h; sourceTree = "<group>"; };
+		374A58DA163D683E0044EF85 /* Schooner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Schooner.cpp; sourceTree = "<group>"; };
+		374A58DB163D683E0044EF85 /* Schooner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schooner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3700A932163D9465007A9E63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				374A58D4163D66E30044EF85 /* Boat.cpp */,
+				374A58D5163D66E30044EF85 /* Boat.h */,
+				374A58D7163D676F0044EF85 /* Sailboat.cpp */,
+				374A58D8163D676F0044EF85 /* Sailboat.h */,
+				374A58DA163D683E0044EF85 /* Schooner.cpp */,
+				374A58DB163D683E0044EF85 /* Schooner.h */,
+				3700A92F163D8EE3007A9E63 /* Dinghy.cpp */,
+				3700A930163D8EE3007A9E63 /* Dinghy.h */,
+				3700A929163D7B25007A9E63 /* Powerboat.cpp */,
+				3700A92A163D7B25007A9E63 /* Powerboat.h */,
+				3700A933163D9521007A9E63 /* Clipper.cpp */,
+				3700A934163D9521007A9E63 /* Clipper.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		374A58BC163D60140044EF85 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +97,7 @@
 		374A58CA163D60140044EF85 /* October29 */ = {
 			isa = PBXGroup;
 			children = (
+				3700A932163D9465007A9E63 /* Classes */,
 				374A58CB163D60140044EF85 /* main.cpp */,
 				374A58CD163D60140044EF85 /* October29.1 */,
 			);
@@ -118,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				374A58CC163D60140044EF85 /* main.cpp in Sources */,
+				374A58D6163D66E30044EF85 /* Boat.cpp in Sources */,
+				374A58D9163D676F0044EF85 /* Sailboat.cpp in Sources */,
+				374A58DC163D683E0044EF85 /* Schooner.cpp in Sources */,
+				3700A92B163D7B25007A9E63 /* Powerboat.cpp in Sources */,
+				3700A931163D8EE3007A9E63 /* Dinghy.cpp in Sources */,
+				3700A935163D9521007A9E63 /* Clipper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +252,7 @@
 				374A58D3163D60140044EF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
